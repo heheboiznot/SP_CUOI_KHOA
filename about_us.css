@@ -1,0 +1,16 @@
+.font{
+    font-family: 'Dancing Script', cursive;
+    
+}
+.content{
+padding: 10px;
+border: solid 1px;
+}
+.column{
+float: left;
+width: 30%;
+margin: 10px;
+}
+.custom{
+    align-items: center;
+}
