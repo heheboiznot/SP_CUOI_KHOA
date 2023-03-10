@@ -3,7 +3,7 @@ const waifuContainer = document.getElementById('waifu-container');
 
 getWaifuButton.addEventListener('click', async () => {
     try {
-        const response = await fetch('https://api.waifu.pics/sfw/waifu');
+        const response = await fetch('https://api.waifu.pics/sfw/happy');
         const data = await response.json();
 
         if (data.url) {
